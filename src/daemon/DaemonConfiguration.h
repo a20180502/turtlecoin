@@ -35,7 +35,7 @@ namespace DaemonConfig
             p2pInterface = "0.0.0.0";
             p2pPort = CryptoNote::P2P_DEFAULT_PORT;
             p2pExternalPort = 0;
-            rpcInterface = "127.0.0.1";
+            rpcInterface ="0.0.0.0";// "127.0.0.1";
             rpcPort = CryptoNote::RPC_DEFAULT_PORT;
             noConsole = false;
             enableBlockExplorer = false;
